@@ -1,11 +1,11 @@
 import express from 'express';
 
 const router = express.Router();
+
 const initWebRouter = (app) => {
-    router.get('/', )
+    router.post('/login', )
 
 
-    
     return app.use('/', router);
 
 }
